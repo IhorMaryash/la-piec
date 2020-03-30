@@ -1,0 +1,161 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 14vh;
+    background: #fff;
+    z-index: 10;
+    font-family: 'Comfortaa', cursive;
+    -webkit-transition: -webkit-box-shadow .250s linear;
+    transition: -webkit-box-shadow .250s linear;
+    -o-transition: box-shadow .250s linear;
+    transition: box-shadow .250s linear;
+    transition: box-shadow .250s linear, -webkit-box-shadow .250s linear;
+    backface-visibility: hidden;
+  }
+  header::after {
+    content: "";
+    display: block;
+  }
+  
+  header #logo img {
+    width: 150px;
+    height: 50px;
+    display: block;
+  }
+  
+  header nav li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    font-weight: 700;
+    padding: 0 21px;
+    -webkit-transition: color .250s linear;
+    -o-transition: color .250s linear;
+    transition: color .250s linear;
+  }
+  
+  header nav li:before {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 1px;
+    height: 30px;
+    background: #ebebeb;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: width 0.45s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -o-transition: width 0.45s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: width 0.45s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    content: '';
+  }
+  
+  header nav li:hover span {
+    color: #c80000;
+  }
+  
+  header nav li a {
+    color: #000;
+  }
+  
+  header nav li.active a {
+    color: #c80000;
+  }
+  
+  header nav li a {
+    display: block;
+    text-align: center;
+  }
+  
+  header nav li img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto 5px;
+  }
+  
+  header .headerSection {
+    position: relative;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 19px;
+  }
+  
+  header .headerSection .tel {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  header .headerSection .tel p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    -webkit-transition: color .250s linear;
+    -o-transition: color .250s linear;
+    transition: color .250s linear;
+  }
+  
+  header .headerSection .tel span {
+    font-size: 20px;
+    line-height: 26px;
+    color: #c80000;
+    -webkit-transition: color .250s linear;
+    -o-transition: color .250s linear;
+    transition: color .250s linear;
+  }
+  
+  @media (min-width: 1200px) {
+    .hidden-lg {
+      display: none!important;
+    }
+  }
+  
+  header .headerSection .basket {
+    position: relative;
+    display: block;
+  }
+  
+  header .headerSection .basket img {
+    width: 28px;
+    height: 28px;
+    display: table;
+    margin: 0 auto -5px;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-transition: opacity .250s linear;
+    -o-transition: opacity .250s linear;
+    transition: opacity .250s linear;
+  }
+  
+  header .headerSection .basket .basketPrice {
+    color: #000;
+  }
+  
+  header .headerSection .basket .basketPrice span {
+    font-size: 13px;
+    margin-right: 5px;
+    max-width: 43px;
+    min-width: 38px;
+    text-align: right;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    font-weight: 700;
+  }
+  
+  header .headerSection .basket .basketPrice i {
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  
+  header .headerSection.user-block a {
+    color: #333;
+  }

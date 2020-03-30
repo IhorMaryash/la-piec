@@ -1,0 +1,102 @@
+{
+  "sales": [
+    {
+      "id": 2,
+      "name": "salami",
+      "description": "pizza"
+    },
+    {
+      "id": 3,
+      "name": "margarita",
+      "description": "pizza"
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "nameUA": "салат",
+      "nameEN": "salad"
+    },
+    {
+      "id": 3,
+      "nameUA": "напої",
+      "nameEN": "drinks"
+    },
+    {
+      "id": 4,
+      "nameUA": "салат",
+      "nameEN": "salad"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": {
+        "id": 1,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "цезаріо",
+      "nameEN": "cesario",
+      "description": "bla bla",
+      "price": 182,
+      "weight": "500 g",
+      "image": "https://firebasestorage.googleapis.com/v0/b/la-piec-c69ca.appspot.com/o/images%2Ffc0151dd-a080-45a9-b002-1895302059eb.png?alt=media&token=0b8d1622-c3cc-4769-8d65-7119fc4f38cb"
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": 1,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "цезаріо",
+      "nameEN": "cesario",
+      "description": "bla bla",
+      "price": 182,
+      "weight": "500 g",
+      "image": "https://firebasestorage.googleapis.com/v0/b/la-piec-c69ca.appspot.com/o/images%2Ffc0151dd-a080-45a9-b002-1895302059eb.png?alt=media&token=0b8d1622-c3cc-4769-8d65-7119fc4f38cb"
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": 1,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "тропікана",
+      "nameEN": "tropicana",
+      "description": "special",
+      "price": 150,
+      "weight": "500 g",
+      "image": "https://firebasestorage.googleapis.com/v0/b/la-piec-c69ca.appspot.com/o/images%2F05d3762b-d645-4b37-b81a-d43f06108b83.jpeg?alt=media&token=4dcc87d0-2423-49e7-aea2-7a0eb619a6db"
+    },
+    {
+      "id": 4,
+      "category": {
+        "id": 1,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "моменто",
+      "nameEN": "momento",
+      "description": "pizza",
+      "price": 200,
+      "weight": "500g",
+      "image": "https://firebasestorage.googleapis.com/v0/b/la-piec-c69ca.appspot.com/o/images%2F688df84f-269e-489e-b063-7c67f11e435b.jpeg?alt=media&token=b6414058-da5a-4d02-868c-054d01d48ae9"
+    },
+    {
+      "id": 5,
+      "category": {
+        "id": 1,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameEN": "неаполітано",
+      "description": "neapolitano",
+      "price": 200,
+      "weight": "520g",
+      "image": "https://firebasestorage.googleapis.com/v0/b/la-piec-c69ca.appspot.com/o/images%2F9067726e-af11-47db-921b-c15aeec54ee5.jpeg?alt=media&token=9e5fcafa-9d3f-43c2-8982-e10b213d02bd"
+    }
+  ]
+}

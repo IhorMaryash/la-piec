@@ -1,0 +1,17 @@
+<div class="container-fluid" style="margin-top: 100px;">
+  <div class="row">
+    <div class="col-3">
+      <div class="nav flex-column nav-pills" >
+        <a class="nav-link" [routerLink]="[ 'category' ]" routerLinkActive="active">Category</a>
+        <a class="nav-link" [routerLink]="[ 'products' ]" routerLinkActive="active">Products</a>
+        <a class="nav-link" [routerLink]="[ 'sales' ]" routerLinkActive="active">Sales</a>
+        <a class="nav-link" [routerLink]="[ 'orders' ]" routerLinkActive="active">Orders</a>
+      </div>
+    </div>
+    <div class="col-9">
+      <div class="tab-content">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<!-- <p>sales works!</p>
+<ol>
+    <li *ngFor="let name of arrNames">
+        {{name}}
+    </li>
+</ol> -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="card col-3" *ngFor="let s of sales; let i=index">
+            <img src="https://www.lapiec-pizza.com.ua/wp-content/uploads/2019/10/bring-a-friend-small.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">{{s.name}}</h5>
+                <p class="card-text">{{s.description}}</p>
+                <a class="btn btn-info" [routerLink]="[ '/product', s.id ]">Details</a>
+            </div>
+        </div>
+    </div>
+</div>

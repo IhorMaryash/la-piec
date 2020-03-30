@@ -1,0 +1,34 @@
+<form>
+  <div class="form-group">
+    <label for="saleName">Sale name</label>
+    <input [(ngModel)]="saleName" name="saleName" type="text" id="saleName" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="saleDescription">Sale description</label>
+    <input [(ngModel)]="saleDescription" name="saleDescription" type="text" id="saleName" class="form-control">
+  </div>
+  <button class="btn btn-success" (click)="addSale()">ADD</button>
+</form>
+<hr>
+<table class="table">
+  <thead>
+    <th>#</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Edit</th>
+    <th>Delete</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let s of adminSales; let i=index">
+        <td>{{ i+1 }}</td>
+        <td>{{ s.name }}</td>
+        <td>{{ s.description }}</td>
+        <td>
+            <button class="btn btn-warning" (click)="editSale(s)">Edit</button>
+        </td>
+        <td>
+            <button class="btn btn-danger" (click)="deleteSale(s)">Delete</button>
+        </td>
+    </tr>
+  </tbody>
+</table>

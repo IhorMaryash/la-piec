@@ -1,0 +1,209 @@
+/* You can add global styles to this file, and also import other style files */
+::-webkit-scrollbar {
+    width: 5px;
+    background: lightgray;
+  }
+  
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #d3d3d3;
+    border-radius: 2px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    background: #f7c200;
+  }
+  
+  a, a:link, a:visited, a:active, a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+  }
+  
+  .h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6 {
+    color: #0e0e0e;
+    font-family: "Comfortaa", cursive;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .h1,
+  h1 {
+    font-size: 55px;
+    line-height: 65px;
+  }
+  
+  .h2,
+  h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  
+  .h3,
+  h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  
+  .h4,
+  h4 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  
+  .h5,
+  h5 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  
+  .h6,
+  h6 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  
+  .as.light {
+    color: #fff;
+  }
+  
+  .as.extraLage {
+    font-size: 120px;
+    line-height: 120px;
+    letter-spacing: -18px;
+  }
+  
+  .large {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  .normall {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  
+  .small {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  
+  
+  a, a:link, a:visited, a:active, a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+  }
+  
+  a {
+    color: rgb(14, 14, 14);
+  }
+  
+  body:not(.mobile) .animateSection.animated .smallSlideRight, body:not(.mobile) .animateSection.animated .smallSlideLeft {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: opacity 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95), -webkit-transform 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: opacity 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95), -webkit-transform 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -o-transition: opacity 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95), transform 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: opacity 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95), transform 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: opacity 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95), transform 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95), -webkit-transform 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+  
+  body:not(.mobile) .animateSection .smallSlideLeft {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    transform: translateX(50px);
+  }
+  
+  body:not(.mobile) .animateSection.animated .smallSlideRight, body:not(.mobile) .animateSection.animated .smallSlideLeft {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: opacity 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95), -webkit-transform 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: opacity 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95), -webkit-transform 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -o-transition: opacity 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95), transform 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: opacity 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95), transform 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: opacity 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95), transform 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95), -webkit-transform 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+  
+  body:not(.mobile) .animateSection .smallSlideLeft {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    transform: translateX(50px);
+  }
+  
+  .emptySpace80 {
+    height: 80px;
+  }
+  
+  .emptySpace20 {
+    height: 20px;
+  }
+  
+  .emptySpace25 {
+    height: 25px;
+  }
+  
+  .emptySpace30 {
+    height: 30px;
+  }
+  
+  
+  .button {
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    font-family: "Comfortaa";
+    border: 1px solid #c80000;
+    padding: 16px 41px 14px;
+    font-size: 15px;
+    line-height: 16px;
+    color: #fefefe;
+    background: #c80000;
+    -webkit-border-radius: 22px;
+    border-radius: 22px;
+    font-weight: 700;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: background .250s linear, color .250s linear, border .250s linear;
+    -o-transition: background .250s linear, color .250s linear, border .250s linear;
+    transition: background .250s linear, color .250s linear, border .250s linear;
+  }
+  
+  
+  @media (max-width: 1500px) {
+    .emptySpace-lt50 {
+      height: 50px;
+    }
+  }
+  
+  @media (max-width: 1500px) {
+    .emptySpace-lt60 {
+      height: 60px;
+    }
+  }
+  
+  @media (max-width: 1365px) {
+    h2, .h2 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .button:hover {
+      background: transparent;
+      color: #c80000;
+    }
+  }
+  

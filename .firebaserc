@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "la-piec-c69ca": {
+      "hosting": {
+        "la-piec": [
+          "la-piec-c69ca"
+        ]
+      }
+    }
+  }
+}

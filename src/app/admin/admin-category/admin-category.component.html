@@ -1,0 +1,35 @@
+<form>
+    <div class="form-group">
+      <label for="nameUA">Name ua</label>
+      <input [(ngModel)]="nameUA" name="nameUA" type="text" id="nameUA" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="nameEN">Name en</label>
+      <input [(ngModel)]="nameEN" name="nameEN" type="text" id="nameEN" class="form-control">
+    </div>
+    <button class="btn btn-success" (click)="addCategory()">ADD</button>
+  </form>
+  <hr>
+  <table class="table">
+    <thead>
+      <th>#</th>
+      <th>Name UA</th>
+      <th>Name EN</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let c of adminCategory; let i=index">
+          <td>{{ i+1 }}</td>
+          <td>{{ c.nameUA }}</td>
+          <td>{{ c.nameEN }}</td>
+          <td>
+              <button class="btn btn-warning" (click)="editCategory(c)">Edit</button>
+          </td>
+          <td>
+              <button class="btn btn-danger" (click)="deleteCategory(c)">Delete</button>
+          </td>
+      </tr>
+    </tbody>
+  </table>
+  
